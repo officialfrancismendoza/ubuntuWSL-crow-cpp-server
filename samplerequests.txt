@@ -1,0 +1,26 @@
+Sample Requests for POSTMAN
+Adding a New Book
+Method: POST
+URL: http://localhost:18080/books
+Body: (Select raw and JSON)
+json
+Copy code
+{
+    "title": "Sample Book",
+    "author": "Author Name",
+    "published_date": "2023",
+    "ratings": 5,
+    "deweyDecimalNumber": "001.234"
+}
+
+-----------------------------------
+
+Searching by Dewey Decimal Number (O(1) Lookup)
+Method: GET
+URL: http://localhost:18080/books?deweyDecimalNumber=001.234
+
+-----------------------------------
+
+Searching by Other Parameters (O(N) Lookup)
+Method: GET
+URL: http://localhost:18080/books?author=Author%20Name
