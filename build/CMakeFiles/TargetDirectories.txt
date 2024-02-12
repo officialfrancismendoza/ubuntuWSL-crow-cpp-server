@@ -1,0 +1,4 @@
+/home/fmendoz7/crowcpp2/build/CMakeFiles/edit_cache.dir
+/home/fmendoz7/crowcpp2/build/CMakeFiles/rebuild_cache.dir
+/home/fmendoz7/crowcpp2/build/CMakeFiles/CrowLibrary.dir
+/home/fmendoz7/crowcpp2/build/CMakeFiles/CrowSample.dir
